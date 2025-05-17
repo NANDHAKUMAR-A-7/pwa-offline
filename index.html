@@ -11,6 +11,8 @@
   <h1>Hello, PWA!</h1>
   <p>This app works offline.</p>
 
+  <button id="button"> click </button>
+
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -22,5 +24,6 @@
       });
     }
   </script>
+  <script defer src="/simple-pwa/pwa-offline/main.js"></script>
 </body>
 </html>
